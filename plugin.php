@@ -1,5 +1,5 @@
 <?php
-namespace Custom_Add_ons;
+namespace elementor_posts_filter;
 
 /**
  * Class Plugin

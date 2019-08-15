@@ -1,5 +1,5 @@
 <?php
-namespace Custom_Add_ons\Widgets;
+namespace elementor_posts_filter\Widgets;
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 

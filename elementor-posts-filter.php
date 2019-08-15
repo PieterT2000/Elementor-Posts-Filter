@@ -74,7 +74,7 @@ final class Elementor_Posts_Filter {
         $elements_manager->add_category(
             'super-cat',
             [
-                'title' => __( 'Custom Add-ons', 'custom-add-ons' ),
+                'title' => __( 'Elementor Post Filter', 'elementor-posts-filter' ),
                 'icon' => 'fa fa-plug',
             ]
         );
@@ -141,9 +141,9 @@ final class Elementor_Posts_Filter {
 
         $message = sprintf(
             /* translators: 1: Plugin name 2: Elementor */
-            esc_html__( '"%1$s" requires "%2$s" to be installed and activated.', 'elementor-super-cat' ),
-            '<strong>' . esc_html__( 'Elementor Super Cat', 'elementor-super-cat' ) . '</strong>',
-            '<strong>' . esc_html__( 'Elementor', 'elementor-super-cat' ) . '</strong>'
+            esc_html__( '"%1$s" requires "%2$s" to be installed and activated.', 'elementor-posts-filter' ),
+            '<strong>' . esc_html__( 'elementor-posts-filter', 'elementor-posts-filter' ) . '</strong>',
+            '<strong>' . esc_html__( 'elementor-posts-filter', 'elementor-posts-filter' ) . '</strong>'
         );
 
         printf( '<div class="notice notice-warning is-dismissible"><p>%1$s</p></div>', $message );
